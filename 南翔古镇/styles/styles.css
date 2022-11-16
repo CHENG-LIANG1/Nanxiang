@@ -15,6 +15,11 @@ p {
     line-height: 40px;
 }
 
+
+.brown-text {
+    color: #6C595A;
+}
+
 header {
     background-color: #BBAFA9;
     background-image: url("/南翔古镇/image/home_nav.jpeg");
@@ -22,6 +27,11 @@ header {
     background-size: 100%;
     height: 80px;
     padding-top: 40px;
+}
+
+body {
+    background-image: url("/南翔古镇/image/bg.jpeg");
+    background-size: 500px;
 }
 
 .nav {
@@ -69,7 +79,7 @@ header {
     height: 8px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: lightgray;
+    background-color: #BBAFA9;
     border-radius: 10px;
 }
 
@@ -177,8 +187,8 @@ header {
     height: 200px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 90px;
+    margin-right: 90px;
     border-radius: 40px;
 
 }
@@ -253,10 +263,81 @@ footer h3 {
     margin-top: 30px;
     text-align: center;
 }
+
 footer ul{
     margin-top: 20px;
     text-align: center;
     list-style: none;
     display:  flex;
     justify-content: space-evenly;
+}
+
+.places {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.place {
+    padding: 30px;
+}
+
+.place p {
+    padding-top: 20px;
+}
+
+.column {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.food {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.food-img {
+    height: 200px;
+    border-radius: 20px;
+    border: #BBAFA9 5px solid;
+}
+
+
+.food-item {
+    padding: 30px;
+}
+
+.food-item p {
+    margin: 50px 10px 50px 10px;
+}
+
+.title-link {
+    color: inherit;
+    text-decoration: none;
+    padding: 20px 80px 20px 80px;
+    border: #f19947 dashed 8px;
+    border-radius: 15px;
+}
+
+.title {
+    color: #6C595A;
+    text-align: center;
+
+}
+
+
+.title-link:hover {
+    padding: 20px 80px 20px 80px;
+    background-color: #f19947;
+    color: black;
+    border-radius: 15px;
+}
+
+.sizedbox {
+    width: 10%;
 }
