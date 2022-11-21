@@ -1,3 +1,10 @@
+:root {
+    --primary: #FFE15D;
+    --text: #6C595A;
+    --border: #66CC8A;
+}
+
+
 
 *{
     margin: 0;
@@ -9,8 +16,10 @@ body {
     background-color: #FAFAFA;
 }
 
+
+
 p {
-    color: #877B7B;
+    color: var(--text);
     font-size: 24px;
     line-height: 40px;
 }
@@ -70,18 +79,18 @@ body {
 }
 
 .link:hover {
-    color:#FFE15D;
+    color:var(--primary);
 }
 
 .link:active {
-    color:#FFE15D;
+    color:var(--primary);
 }
 
 .active-link {
-    color: #FFE15D;
+    color:var(--primary);
 }
 .active-link:visited{
-    color: #FFE15D;
+    color:var(--primary);
 }
 
 
@@ -92,7 +101,7 @@ body {
     height: 8px;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #BBAFA9;
+    background-color: var(--border);
     border-radius: 10px;
 }
 
@@ -103,8 +112,8 @@ body {
 .label {
     font-size: 24px;
     font-weight: 100;
-    color: white;
-    background-color: #6C595A;
+    color: black;
+    background-color: var(--primary);
     writing-mode: vertical-lr;
     padding: 80px 10px 80px 10px;
     border-radius: 30px;
@@ -132,10 +141,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #7F7373;
+    background-color: var(--text);
     writing-mode: vertical-lr;
-    width: 12%;
-    height: 400px;
+    width: 15%;
     border-radius: 40px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
@@ -159,8 +167,8 @@ body {
 
 .vertical-img {
     display: block;
-    width: 12%;
-    height: 400px;
+    width: 15%;
+
     border-radius: 40px;
     object-fit: cover;
     object-position: 100% 0;
@@ -179,9 +187,9 @@ body {
 
 .pics {
     display: flex;
-    justify-content: space-around;
-    margin: auto;
-    width: 80%;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .intro-2 {
@@ -192,7 +200,7 @@ body {
     margin-top: 150px;
     justify-content: center;
     align-items: center;
-    border: #6C595A solid 10px;
+    border: var(--text) solid 10px;
     padding: 40px;
     border-radius: 40px;
 }
@@ -211,10 +219,10 @@ body {
 
 .vertical-label {
     display: flex;
-    color: white;
+    color: black;
     align-items: center;
     justify-content: center;
-    background-color: #6C595A;
+    background-color: var(--primary);
     writing-mode: vertical-lr;
     height: 200px;
     padding-left: 20px;
@@ -250,9 +258,9 @@ body {
     margin: auto;
     margin-bottom: 50px;
     font-size: 24px;
-    color: white;
+    color: black;
     padding: 10px 20px 10px 20px;
-    border: #686060 3px solid;
+    border: var(--primary) 5px solid;
     border-radius: 30px;
 
 }
