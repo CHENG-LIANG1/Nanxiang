@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'FangSong', 'Microsoft YaHei', 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,'Simsum' ;
     background-color: #FAFAFA;
 }
 
@@ -15,6 +15,19 @@ p {
     line-height: 40px;
 }
 
+small {
+    line-height: 15px;
+    font-size: 15px;
+}
+
+pre {
+    text-align: center;
+    line-height: 20px;
+}
+
+a {
+    text-align: center;
+}
 
 .brown-text {
     color: #6C595A;
@@ -331,9 +344,18 @@ footer ul{
 
 
 .food-img {
-    height: 200px;
+    width: 30%;
     border-radius: 20px;
     border: #BBAFA9 5px solid;
+}
+
+.food-img:hover {
+    cursor: pointer;
+    filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(4px);
+    -webkit-filter:blur(4px);
 }
 
 
@@ -421,12 +443,14 @@ footer ul{
     padding-left: 4%;
     padding-right: 4%;
     justify-content: space-between;
+    height: 300px;
 
 }
 
 .culture img {
-    height: 300px;
+    width: 50%;
     margin-right: 20px;
+    border-radius: 100px;
 
 
 }
