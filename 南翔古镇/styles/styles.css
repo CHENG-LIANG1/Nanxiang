@@ -502,3 +502,38 @@ footer ul{
     align-items: center;
     margin: 100px 10%;
 }
+
+.people-container {
+    display: flex;
+    align-items: center;
+    margin: 100px 10% 100px 10%;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.people-container:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.people {
+    margin-right: 5%;
+}
+
+.people-name {
+    text-align: center;
+    color: var(--text);
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.people-intro {
+    color: var(--text);
+    font-size: 28px;
+    line-height: 40px;
+    margin-right: 5%;
+}
+
+.people img {
+    border-radius: 10px;
+}
