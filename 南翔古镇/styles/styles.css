@@ -329,7 +329,7 @@ footer ul{
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .place {
