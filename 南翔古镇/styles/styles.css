@@ -1,7 +1,7 @@
 :root {
     --primary: #FFE15D;
     --text: #6C595A;
-    --border: #66CC8A;
+    --border: #F5D5AE;
 }
 
 
@@ -110,12 +110,12 @@ body {
 }
 
 .label {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 100;
     color: black;
     background-color: var(--primary);
     writing-mode: vertical-lr;
-    padding: 80px 10px 80px 10px;
+    padding: 80px 20px 80px 20px;
     border-radius: 30px;
 
 }
@@ -143,6 +143,7 @@ body {
     justify-content: center;
     background-color: var(--text);
     writing-mode: vertical-lr;
+    color: white;
     width: 15%;
     border-radius: 40px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -157,7 +158,7 @@ body {
     -moz-filter:blur(4px);
     -webkit-filter:blur(4px);
 }
-
+c
 .cover-img h1 {
     color: white;
     font-size: 36px;
@@ -209,7 +210,7 @@ body {
 
     width: 30%;;
     border-radius: 20px;
-    border: #BBAFA9 5px solid;
+    border: var(--border) 10px solid;
 }
 
 .intro-2 p {
@@ -259,9 +260,9 @@ body {
     margin-bottom: 50px;
     font-size: 24px;
     color: black;
-    padding: 10px 20px 10px 20px;
-    border: var(--primary) 5px solid;
-    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    border: var(--primary) 10px solid;
+    border-radius: 50px;
 
 }
 
@@ -281,12 +282,12 @@ body {
     width: 20%;
     margin-right: 20px;
     border-radius: 20px;
-    border: #BBAFA9 5px solid;
+    border: var(--border) 10px solid;
 
 }
 
 .history img:hover {
-    border: white 5px solid;
+    border: var(--border) 10px solid;
     cursor: pointer;
     filter:blur(4px);
     -o-filter:blur(4px);
@@ -346,18 +347,19 @@ footer ul{
 
 .food {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 
 
 .food-img {
-    width: 30%;
-    border-radius: 20px;
-    border: #BBAFA9 5px solid;
+    width: 20%;
+    border-radius: 200px;
+    border: var(--border) 10px solid;
 }
 
 .food-img:hover {
+    border: var(--border) 10px solid;
     cursor: pointer;
     filter:blur(4px);
     -o-filter:blur(4px);
@@ -369,6 +371,7 @@ footer ul{
 
 .food-item {
     padding: 30px;
+    
 }
 
 .food-item p {
@@ -379,24 +382,36 @@ footer ul{
     color: inherit;
     text-decoration: none;
     padding: 20px 80px 20px 80px;
-    border: #f19947 dashed 8px;
+    border: var(--primary) dashed 8px;
     border-radius: 15px;
 }
 
+.title-small {
+    color: var(--text);
+    text-align: center;
+    border: var(--primary) 8px solid;
+    margin: auto;
+    width: 150px;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
 .title {
-    color: #6C595A;
+    color: var(--text);
     text-align: center;
 }
 
-.title:hover{
+.title-small:hover{
     cursor: pointer;
-    color: #f19947;
+    color: black;
+    background-color: var(--primary);
 }
 
 
 .title-link:hover {
     padding: 20px 80px 20px 80px;
-    background-color: #f19947;
+    background-color: var(--primary);
     color: black;
     border-radius: 15px;
 }
@@ -418,7 +433,7 @@ footer ul{
 }
 
 .hotel-name {
-    color: #f19947;
+    color: var(--text);
     margin: auto;
     margin-top: 10px;
     font-size: 22px;
@@ -430,13 +445,14 @@ footer ul{
     display: block;
     width: 80%;
     border-radius: 20px;
-    border: #BBAFA9 8px solid;
+    border: var(--border) 8px solid;
     margin: auto;
 
 }
 
 
 .accommodation img:hover {
+    border: var(--border) 8px solid;
     cursor: pointer;
     filter:blur(4px);
     -o-filter:blur(4px);
@@ -458,7 +474,7 @@ footer ul{
 .culture img {
     width: 50%;
     margin-right: 20px;
-    border-radius: 100px;
+    border-radius: 1000px;
 
 
 }
