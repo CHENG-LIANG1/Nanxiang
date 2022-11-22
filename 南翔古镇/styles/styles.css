@@ -549,3 +549,34 @@ footer ul{
 .people img {
     border-radius: 10px;
 }
+
+.home-body {
+    background-image: url("/南翔古镇/image/bg2.jpeg") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn-container {
+    margin: 120px 20% 50px 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-container img {
+    display: block;
+    object-fit: contain;
+    width: 20%;
+}
+.btn-container img:hover {
+    cursor: pointer;
+    width: 22%;
+}
+
+
+.logo {
+    display: block;
+    width: 20%;
+    margin: auto;
+}
