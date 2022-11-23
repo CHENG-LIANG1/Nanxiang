@@ -564,14 +564,16 @@ footer ul{
     justify-content: space-around;
 }
 
-.btn-container img {
+
+.home-btn{
     display: block;
     object-fit: contain;
-    width: 20%;
+    margin: auto;
+    width: 50%;
 }
-.btn-container img:hover {
+.home-btn:hover {
     cursor: pointer;
-    width: 22%;
+    width: 60%;
 }
 
 
@@ -579,4 +581,16 @@ footer ul{
     display: block;
     width: 20%;
     margin: auto;
+}
+
+
+.home-intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+.home-intro h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
 }
