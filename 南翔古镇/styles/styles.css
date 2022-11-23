@@ -1,6 +1,6 @@
 :root {
     --primary: #FFE15D;
-    --text: #6C595A;
+    --text: #333;
     --border: #F5D5AE;
 }
 
@@ -18,9 +18,11 @@
 
 body {
     font-family: roundedFont ;
-    background-color: #FAFAFA;
-    background-image: url("/南翔古镇/image/bg.jpeg");
-    background-size: 200px;
+    background-image: url("/南翔古镇/image/bg2.jpeg") ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -28,7 +30,6 @@ body {
 p {
     color: var(--text);
     font-size: 24px;
-    line-height: 40px;
 }
 
 small {
@@ -38,24 +39,19 @@ small {
 
 pre {
     text-align: center;
-    line-height: 20px;
 }
 
 a {
     text-align: center;
 }
 
+
 .brown-text {
     color: #6C595A;
 }
 
 header {
-    background-color: #BBAFA9;
-    background-image: url("/南翔古镇/image/home_nav.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 80px;
-    padding-top: 40px;
+    margin: auto;
 }
 
 a {
@@ -63,17 +59,29 @@ a {
 }
 
 .nav {
-    width: 50%;
+
+    background-color: black;
+    height: 80px;
+    margin: auto;
+    border-radius: 100px;
+    border: var(--primary) 7px solid;
+    width: 40%;
     display: flex;
     /* flex-direction: column; */
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
 }
 
 
 .nav a{
     font-size: 20px;
     text-decoration: none;
-    margin-left: 50px;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 .link:link{
@@ -85,7 +93,9 @@ a {
 }
 
 .link:hover {
-    color:var(--primary);
+    background: var(--primary);
+    color: black;
+    border-radius: 150px;
 }
 
 .link:active {
@@ -93,10 +103,12 @@ a {
 }
 
 .active-link {
-    color:var(--primary);
+    background: var(--primary);
+    color: black;
+    border-radius: 150px;
 }
 .active-link:visited{
-    color:var(--primary);
+    color: black;
 }
 
 
@@ -133,6 +145,13 @@ a {
     margin: auto;
     margin-bottom: 100px;
     margin-top: 100px;
+    padding: 50px;
+}
+
+.intro:hover{
+    cursor: pointer;
+    background-color: var(--primary);
+    border-radius: 30px;
 }
 
 .intro p {
@@ -485,11 +504,6 @@ footer ul{
 
 .culture img:hover {
     cursor: pointer;
-    filter:blur(4px);
-    -o-filter:blur(4px);
-    -ms-filter:blur(4px);
-    -moz-filter:blur(4px);
-    -webkit-filter:blur(4px);
 }
 
 
@@ -550,16 +564,9 @@ footer ul{
     border-radius: 10px;
 }
 
-.home-body {
-    background-image: url("/南翔古镇/image/bg2.jpeg") ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 .btn-container {
-    margin: 120px 20% 50px 20%;
+    margin: 200px 20% 50px 20%;
     display: flex;
     justify-content: space-around;
 }
