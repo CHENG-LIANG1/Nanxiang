@@ -489,9 +489,15 @@ footer ul{
     align-items: center;
     padding-left: 4%;
     padding-right: 4%;
+    margin: 30px;
     justify-content: space-between;
     height: 300px;
+}
 
+.culture:hover {
+    cursor: pointer;
+    border-radius: 30px;
+    background: var(--primary);
 }
 
 .culture img {
@@ -508,7 +514,7 @@ footer ul{
 
 
 
-.culture-text p{
+.culture-text p {
     font-size: 18px;
     line-height: 24px;
 }
